@@ -1,0 +1,22 @@
+{
+  "name": "keven/murmur",
+  "description": "Interprocess communication",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["murmur", "mutex", "shared memory", "named pipe", "socket", "message", "process", "thread", "unix", "signal", "queue", "semaphore"],
+  "authors": [
+    {
+      "name": "Keven",
+      "email": "hello@keven.fr",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "ext-pcntl": "*",
+    "ext-posix": "*",
+    "php": "^7.4"
+  },
+  "autoload": {
+    "Keven\\Murmur\\": "src"
+  }
+}
